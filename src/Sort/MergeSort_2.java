@@ -50,17 +50,17 @@ public class MergeSort_2 {
 			arr[index + i] = tmp[part1 + i];
 		}
 	}
-	
+
 	private static void printArray(int[] arr) {
-		
-		for (int data: arr) {
+
+		for (int data : arr) {
 			System.out.print(data + ", ");
 		}
 		System.out.println();
 	}
 
 	public static void main(String[] args) {
-		int[] arr = {3,9,4,7,5,0,1,6,8,2};
+		int[] arr = { 4, 2, 6, 3, 7, 8, 5, 1 };
 		printArray(arr);
 		mergeSort(arr);
 		printArray(arr);
